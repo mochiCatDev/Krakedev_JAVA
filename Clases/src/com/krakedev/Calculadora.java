@@ -1,8 +1,13 @@
 package com.krakedev;
 
 public class Calculadora {
-    public double multiplicar(double n1, double n2) {
-        double resultado = n1 * n2;
+    public double multiplicar(double valor1, double valor2) {
+        double resultado = valor1 * valor2;
+        return resultado;
+    };
+
+    public double dividir(double dividiendo, double divisor) {
+        double resultado = dividiendo / divisor;
         return resultado;
     };
 }
