@@ -3,6 +3,9 @@ package com.krakedev;
 public class Cuadrado {
     private int lado;
 
+    // constructor
+    public Cuadrado(int lado) { this.lado = lado; }
+
     // getter
     public int getLado() { return lado; }
 

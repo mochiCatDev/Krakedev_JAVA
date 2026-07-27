@@ -3,9 +3,9 @@ package com.krakedev;
 public class TestPlato {
 
     public static void main(String[] args) {
-        Plato platoA = new Plato();
-        Plato platoB = new Plato();
-        Plato platoC = new Plato();
+        Plato platoA = new Plato("??", "??", 0, false);
+        Plato platoB = new Plato("??", "??", 0, false);
+        Plato platoC = new Plato("??", "??", 0, false);
 
         String separador = "+-------+---------------------+---------------+----------+------------+";
         String cabecera  = "| %-5s | %-19s | %-13s | %-8s | %-10s |";

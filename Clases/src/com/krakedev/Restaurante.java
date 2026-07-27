@@ -5,6 +5,13 @@ public class Restaurante {
 	private String direccion;
 	private double calificacion;
 
+    // Constructor
+    public Restaurante(String nombre, String direccion, double calificacion) {
+        this.nombre = nombre;
+        this.direccion = direccion;
+        this.calificacion = calificacion;
+    }
+
     // Getter
     public String getNombre() { return nombre; }
     public String getDireccion() { return direccion; }

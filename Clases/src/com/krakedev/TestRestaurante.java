@@ -2,8 +2,8 @@ package com.krakedev;
 
 public class TestRestaurante {
     public static void main(String[] args) {
-        Restaurante rest1 = new Restaurante();
-        Restaurante rest2 = new Restaurante();
+        Restaurante rest1 = new Restaurante("??", "??", 0);
+        Restaurante rest2 = new Restaurante("??", "??", 0);
         
         String separador = "+---------------+-----------------+-----------------+--------------+";
         String cabecera  = "| %-13s | %-15s | %-15s | %-12s |";
