@@ -15,33 +15,33 @@ public class TestPlato {
         System.out.println(separador);
         System.out.println(cabecera.formatted("Plato", "Nombre", "Tipo", "Precio", "Disponible"));
         System.out.println(separador);
-        System.out.println(fila.formatted("A", platoA.nombre, platoA.tipo, platoA.precio, platoA.disponible));
-        System.out.println(fila.formatted("B", platoB.nombre, platoB.tipo, platoB.precio, platoB.disponible));
-        System.out.println(fila.formatted("C", platoC.nombre, platoC.tipo, platoC.precio, platoC.disponible));
+        System.out.println(fila.formatted("A", platoA.getNombre(), platoA.getTipo(), platoA.getPrecio(), platoA.getDisponible()));
+        System.out.println(fila.formatted("B", platoB.getNombre(), platoB.getTipo(), platoB.getPrecio(), platoB.getDisponible()));
+        System.out.println(fila.formatted("C", platoC.getNombre(), platoC.getTipo(), platoC.getPrecio(), platoC.getDisponible()));
         System.out.println(separador);
 
-        platoA.nombre = "Empanadas Viento";
-        platoA.tipo = "Entrada";
-        platoA.precio = 2.50;
-        platoA.disponible = true;
+        platoA.setNombre("Empanadas Viento");
+        platoA.setTipo("Entrada");
+        platoA.setPrecio(2.50);
+        platoA.setDisponible(true);
 
-        platoB.nombre = "Seco de Chivo";
-        platoB.tipo = "Plato fuerte";
-        platoB.precio = 8.00;
-        platoB.disponible = true;
+        platoB.setNombre("Seco de Chivo");
+        platoB.setTipo("Plato fuerte");
+        platoB.setPrecio(8.00);
+        platoB.setDisponible(true);
 
-        platoC.nombre = "Flan de Coco";
-        platoC.tipo = "Postre";
-        platoC.precio = 3.00;
-        platoC.disponible = false;
+        platoC.setNombre("Flan de Coco");
+        platoC.setTipo("Postre");
+        platoC.setPrecio(3.00);
+        platoC.setDisponible(false);
 
         System.out.println("\n=== VALORES MODIFICADOS ===");
         System.out.println(separador);
         System.out.println(cabecera.formatted("Plato", "Nombre", "Tipo", "Precio", "Disponible"));
         System.out.println(separador);
-        System.out.println(fila.formatted("A", platoA.nombre, platoA.tipo, platoA.precio, platoA.disponible));
-        System.out.println(fila.formatted("B", platoB.nombre, platoB.tipo, platoB.precio, platoB.disponible));
-        System.out.println(fila.formatted("C", platoC.nombre, platoC.tipo, platoC.precio, platoC.disponible));
+        System.out.println(fila.formatted("A", platoA.getNombre(), platoA.getTipo(), platoA.getPrecio(), platoA.getDisponible()));
+        System.out.println(fila.formatted("B", platoB.getNombre(), platoB.getTipo(), platoB.getPrecio(), platoB.getDisponible()));
+        System.out.println(fila.formatted("C", platoC.getNombre(), platoC.getTipo(), platoC.getPrecio(), platoC.getDisponible()));
         System.out.println(separador);
     }
 }
