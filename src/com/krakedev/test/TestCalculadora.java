@@ -1,4 +1,5 @@
-package com.krakedev;
+package com.krakedev.test;
+import com.krakedev.Calculadora;
 
 public class TestCalculadora {
     public static void main(String[] args) {
